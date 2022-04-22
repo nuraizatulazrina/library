@@ -8,7 +8,7 @@
     <div class="card-body">
          <div class="side-nav">
             <aside class="column">
-            <?= $this->Html->link(__('List Booksss'), ['plugin' => false , 'action' => 'index'], ['label' => false, 'class' => 'btn btn-primary']) ?>
+            <?= $this->Html->link(__('List Books'), ['plugin' => false , 'action' => 'index'], ['label' => false, 'class' => 'btn btn-primary']) ?>
 
              <?= $this->Form->postLink(
                 __('Delete'),

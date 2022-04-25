@@ -8,6 +8,7 @@
     <div class="card-body">
          <div class="side-nav">
             <aside class="column">
+                Books
             <?= $this->Html->link(__('List Books'), ['plugin' => false , 'action' => 'index'], ['label' => false, 'class' => 'btn btn-primary']) ?>
 
              <?= $this->Form->postLink(

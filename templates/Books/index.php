@@ -2,6 +2,7 @@
     <div class="card-body">
         <div class="row justify_content_between>">
             <div class ="col-md-auto">
+                Books
                 <?= $this->Html->link(__('+ Book'), ['plugin' => false , 'action' => 'add'], ['label' => false, 'class' => 'btn btn-primary']) ?>
             </div>
             <div class="col-md-auto ml-auto">
